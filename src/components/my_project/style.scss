@@ -1,0 +1,439 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+img {
+    width: 100%;
+}
+
+.nav_fix{
+    position: fixed;
+    flex-wrap: wrap;
+    backdrop-filter: blur(8px);
+    width: 1300px;
+    background: rgba(245, 245, 245, 0.1);
+    padding-top: 20px;
+    height: 70px;
+    transition: 0.7s;
+    z-index: 2;
+}
+.asos1{
+    max-width: 1300px;
+    margin: 0 auto;
+    a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        transition: 1s;
+        margin-left: 20px;
+    }
+    
+}
+.logo_div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 25px;
+    h1{
+        color: rgb(37, 78, 124);
+        transition: 1s;
+        font-family: 'Rubik';
+    }
+}
+.asoslight{
+    background: whitesmoke;
+    background-position: center;
+    background-size: cover;
+    transition: 0.7s;
+}
+.asosdark{
+    background: rgb(54, 66, 78);
+    background-position: center;
+    background-size: cover;
+    transition: 0.7s;
+    .nav_fix{
+        background: rgba(54, 66, 78, 0.1);
+        transition: 0.7s;
+        backdrop-filter: blur(8px);
+    }
+    .allfooter{
+        h2{
+            color: whitesmoke;
+        }
+    }
+    .skill{
+        h2{
+            color: whitesmoke;
+        }
+    }
+    .contact{
+        h4{
+            color: whitesmoke;
+        }
+    }
+    .skills_1{
+        a{
+            background: whitesmoke;
+            color: rgb(54, 66, 78);
+        }
+        a:hover {
+            color: rgb(54, 66, 78);
+        }
+    }
+    .logo_div{
+        h1{
+            color: whitesmoke;
+            transition: 1s;
+        }
+    }
+    .sec_1{
+        p{
+            color: white;
+            transition: 1s;
+        }
+        h1{
+            color: white;
+            transition: 1s;
+        }
+        h2{
+            color: white;
+            transition: 1s;
+        }
+    }
+    .asos1{
+        a{
+            color: whitesmoke;
+            transition: 1s;
+        }
+    }
+    .modeimg{
+        transition: 0.8s;
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+    .modebtn:hover{
+        .pdark{
+            background: rgba(255, 255, 255, 0.774);
+            color: black;
+            transition: 0.8s;
+            display:block;
+            position: fixed;
+            border-radius: 7px;
+            padding: 2px 5px 2px 5px;
+            margin: 7px 0px 0px 10px;
+            
+        }
+        .plight{
+            display: none;
+            font-family: 'Rubik';
+        }
+    }
+    .proj_all{
+        h1{
+            color: white;
+            transition: 1s;
+        }
+    }
+    .projects p{
+        color: white;
+        transition: 1s;
+    }
+    .about_asos{
+        h1{
+            color: white;
+            transition: 1s;
+        }
+        p{
+            color: white;
+            transition: 1s;
+        }
+    }
+}
+.modeimg{
+    width: 40px;
+    height: 40px;
+    transition: 0.8s;
+    opacity: 1;
+    transform: rotate(-180deg);
+    margin-left: 30px;
+}
+.modebtn{
+    outline: none;
+    border: none;
+    background: none;
+    
+    p{
+        display: none;
+    }
+}
+.modebtn:hover{
+    .plight{
+        display:block;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.774);
+        border-radius: 7px;
+        padding: 2px 5px 2px 5px;
+        color: white;
+        transition: 0.8s;
+        margin: 7px 0px 0px 10px;
+    }
+    .pdark{
+        display: none;
+    }
+}
+.container{
+    margin: 0 auto;
+    max-width: 1300px;
+    overflow: hidden;
+}
+.proj_all{
+    h1{
+        font-family: 'Rubik';
+        font-size: 50px;
+        text-align: center;
+        margin: 250px 0px 50px 0px;
+    }
+
+}
+html {
+    scroll-behavior: smooth;
+   }
+.aboutme{
+    padding: 170px 0px 0px 0px;
+}
+.skills_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: ease-out 0.7s;
+    a{
+        text-decoration: none;
+        display: inline-block;
+        width: 140px;
+        height: 45px;
+        line-height: 45px;
+        border-radius: 5px;
+        margin: 10px 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        font-weight: 600;
+        color: whitesmoke;
+        background: rgb(54, 66, 78);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+        transition: .3s;
+      }
+    a:hover {
+        background: #2EE59D;
+        box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+        color: white;
+        transform: translateY(-7px);
+      }
+}
+#down{
+    transition: ease-out 0.7s;
+}
+.snone{
+    display: none;
+    transition: ease-out 0.7s;
+}
+.allfooter{
+    h2{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(37, 78, 124);
+    }
+    max-width: 1300px;
+    height: 230px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+@media (max-width: 1025px) {
+    .nav_fix{
+        width: 965px;
+        display: flex;
+        justify-content: center;
+        margin-left: 15px;
+    }
+    .container{
+        max-width: 1000px;
+        overflow: hidden;
+    }
+    .asos1{
+        display: flex;
+        flex-direction: column;
+    }
+    .boshsahifa{
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 769px) {
+    .nav_fix{
+        width: 760px;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .boshsahifa{
+        width: 768px;
+    }
+    .container {
+        max-width: 768px;
+    }
+    .proj_all{
+        h1{
+            margin-top: 150px;
+        }
+    }
+    .asos1{
+        height: 845px;
+    }
+    .about_2{
+        img{
+            margin-top: 20px;
+        }
+    }
+}
+@media (max-width: 425px) {
+    .asoslight{
+        width: 425px;
+    }
+    .container {
+        max-width: 425px;
+        overflow: hidden;
+    }
+    .asosdark{
+        width: 425px;
+    }
+    .nav_fix{
+        width: 410px;
+    }
+    .modebtn:hover{
+        .plight{
+        margin-right: 30px;
+    }}
+    .asosdark{
+        .modebtn:hover{
+        .pdark{
+        margin-right: 30px;
+
+    }}
+    }
+    .projects img{
+        width: 400px;
+    }
+    .projects{
+        align-items: baseline;
+    }
+    .boshsahifa{
+        width: 400px;
+    }
+    .sec_1{
+        width: 400px;
+    }
+    .about{
+        width: 400px;
+        margin-left: 0px;
+    }
+    .about_2 img{
+        width: 400px;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 376px) {
+    .nav_fix{
+        width: 370px;
+    }
+    .container {
+        max-width: 375px;
+        overflow: hidden;
+    }
+    .modebtn:hover{
+        .plight{
+        margin-right: 30px;
+    }}
+    .asosdark{
+        .modebtn:hover{
+        .pdark{
+        margin-right: 30px;
+
+    }}
+    }
+    .asos1{
+        height: 655px;
+    }
+    .about_2 img {
+        width: 365px;
+    }
+}
+@media (max-width: 361px) {
+    .nav_fix{
+        width: 361px;
+    }
+    .container {
+        max-width: 360px;
+        overflow: hidden;
+    }
+    .modebtn:hover{
+        .plight{
+        margin-right: 20px;
+    }}
+    .asosdark{
+        width: 361px;
+        .modebtn:hover{
+        .pdark{
+        margin-right: 20px;
+
+    }}
+    }
+    .asoslight{
+        width: 361px;
+    }
+}
+@media (max-width: 320px) {
+    .boshsahifa{
+        width: 300px;
+    }
+    .container {
+        max-width: 320px;
+        overflow: hidden;
+        height: auto;
+        align-items: flex-end;
+    }
+    .sec_1{
+        width: 300px;
+    }
+    .about{
+        width: 300px;
+     
+    }
+    .aboutme{
+        height: 770px;
+    }
+    .about_2 img{
+        margin-top: 30px;
+        width: 275px;
+    }
+    .nav_fix{
+        width: 320px;
+    }
+    .asoslight{
+        width: 320px;
+    }
+    .asosdark{
+        width: 320px;
+    }
+    .asos1{
+        height: 580px;
+    }
+    .proj_all{
+        h1{
+            margin-top: 100px;
+        }
+    }
+}

@@ -1,0 +1,304 @@
+.skills {
+  width: 1300px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.skill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.skill h2 {
+  color: black;
+  font-family: 'Rubik';
+  margin: 30px 0px 10px 0px;
+}
+
+.skill img {
+  width: 35px;
+  margin: 15px 0px 0px 20px;
+}
+
+.simg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0px 0px 5px 5px;
+}
+
+.skill_in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.line {
+  width: 500px;
+  height: 5px;
+  background: rgba(0, 0, 0, 0.493);
+  border-radius: 50px;
+}
+
+.html {
+  width: 100%;
+  height: 5px;
+  background: #da8920;
+  border-radius: 50px;
+  -webkit-animation-name: foiz-1;
+          animation-name: foiz-1;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.css {
+  width: 100%;
+  height: 5px;
+  background: #2086da;
+  border-radius: 50px;
+  -webkit-animation-name: foiz-2;
+          animation-name: foiz-2;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.sass {
+  width: 80%;
+  height: 5px;
+  background: #da2020;
+  border-radius: 50px;
+  -webkit-animation-name: foiz-3;
+          animation-name: foiz-3;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.react {
+  width: 40%;
+  height: 5px;
+  background: #199ae6;
+  border-radius: 50px;
+  -webkit-animation-name: foiz-4;
+          animation-name: foiz-4;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.js {
+  width: 35%;
+  height: 5px;
+  background: #e0dd10;
+  border-radius: 50px;
+  -webkit-animation-name: foiz-5;
+          animation-name: foiz-5;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes foiz-1 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+}
+
+@keyframes foiz-1 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+}
+
+@-webkit-keyframes foiz-2 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+}
+
+@keyframes foiz-2 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+}
+
+@-webkit-keyframes foiz-3 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+}
+
+@keyframes foiz-3 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+}
+
+@-webkit-keyframes foiz-4 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 40%;
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+}
+
+@keyframes foiz-4 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 40%;
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+}
+
+@-webkit-keyframes foiz-5 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 35%;
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+}
+
+@keyframes foiz-5 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 35%;
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+}
+
+@media (max-width: 1025px) {
+  .skills {
+    width: 1024px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .skill_in {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .skill {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 769px) {
+  .skills {
+    width: 768px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .skill {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .skills {
+    width: 410px;
+  }
+  .skill {
+    width: 410px;
+  }
+  .line {
+    width: 350px;
+  }
+}
+
+@media (max-width: 320px) {
+  .skills {
+    width: 320px;
+  }
+  .skill {
+    width: 320px;
+  }
+  .line {
+    width: 280px;
+  }
+}
+/*# sourceMappingURL=skills.css.map */

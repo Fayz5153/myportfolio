@@ -1,0 +1,111 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 1300px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+}
+
+.footer_chap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer_chap img {
+  width: 25px;
+}
+
+.footer_ong {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer_ong img {
+  width: 40px;
+}
+
+.footer_ong a {
+  padding-top: 60px;
+  margin: 0px 20px 0px 20px;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px 0px 10px 0px;
+}
+
+.contact h4 {
+  margin-left: 30px;
+  color: #254e7c;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    width: 1024px;
+  }
+}
+
+@media (max-width: 769px) {
+  .footer {
+    width: 768px;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer {
+    width: 425px;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 60px;
+  }
+  .allfooter {
+    max-width: 425px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer {
+    width: 320px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

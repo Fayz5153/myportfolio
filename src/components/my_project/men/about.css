@@ -1,0 +1,83 @@
+.h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.h1 h1 {
+  font-family: 'Rubik';
+  margin-bottom: 50px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.about_asos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+.fio {
+  margin-bottom: 10px;
+}
+
+.spanfio {
+  font-size: 30px;
+}
+
+.about_me p {
+  font-size: 25px;
+  font-family: 'Rubik';
+  width: auto;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media (max-width: 769px) {
+  .about_me {
+    margin: 0px 10px 0px 10px;
+  }
+  .about_me p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 415px) {
+  .about_me {
+    margin: 0px 10px 0px 10px;
+  }
+  .about_me p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 376px) {
+  .about_me {
+    margin: 0px 10px 0px 10px;
+  }
+  .about_me p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 361px) {
+  .about_me {
+    margin: 0px 10px 0px 10px;
+  }
+  .about_me p {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=about.css.map */

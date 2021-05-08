@@ -1,0 +1,179 @@
+.skills{
+    width: 1300px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    h2{
+        color: black;
+        font-family: 'Rubik';
+        margin: 30px 0px 10px 0px;
+    }
+    img{
+        width: 35px;
+        margin: 15px 0px 0px 20px;
+    }
+}
+.simg{
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    margin: 0px 0px 5px 5px;
+}
+.skill_in{
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    width: 500px;
+    height: 5px;
+    background: rgba(0, 0, 0, 0.493);
+    border-radius: 50px;
+}
+.html{
+    width: 100%;
+    height: 5px;
+    background: rgb(218, 137, 32);
+    border-radius: 50px;
+    animation-name: foiz-1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
+.css{
+    width: 100%;
+    height: 5px;
+    background: rgb(32, 134, 218);
+    border-radius: 50px;
+    animation-name: foiz-2;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
+.sass{
+    width: 80%;
+    height: 5px;
+    background: rgb(218, 32, 32);
+    border-radius: 50px;
+    animation-name: foiz-3;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
+.react{
+    width: 40%;
+    height: 5px;
+    background: rgb(25, 154, 230);
+    border-radius: 50px;
+    animation-name: foiz-4;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
+.js{
+    width: 35%;
+    height: 5px;
+    background: rgb(224, 221, 16);
+    border-radius: 50px;
+    animation-name: foiz-5;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
+@keyframes foiz-1 {
+    0%{
+       width: 0px;
+    }
+    100%{
+        width: 100%;
+        animation-play-state: paused;
+    }
+    
+}
+@keyframes foiz-2 {
+    0%{
+       width: 0px;
+    }
+    100%{
+        width: 100%;
+        animation-play-state: paused;
+    }
+    
+}
+@keyframes foiz-3 {
+    0%{
+       width: 0px;
+    }
+    100%{
+        width: 80%;
+        animation-play-state: paused;
+    }
+    
+}
+@keyframes foiz-4 {
+    0%{
+       width: 0px;
+    }
+    100%{
+        width: 40%;
+        animation-play-state: paused;
+    }
+    
+}
+@keyframes foiz-5 {
+    0%{
+       width: 0px;
+    }
+    100%{
+        width: 35%;
+        animation-play-state: paused;
+    }
+    
+}
+@media (max-width:1025px) {
+    .skills{
+        width: 1024px;
+        align-items: center;
+    }
+    .skill_in{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .skill{
+        align-items: center;
+    }
+}
+@media (max-width:769px) {
+    .skills{
+        width: 768px;
+        align-items: center;
+    }
+    .skill{
+        align-items: center;
+    }
+}
+@media (max-width:425px) {
+    .skills{
+        width: 410px;
+    }
+    .skill{
+        width: 410px;
+    }
+    .line{
+        width: 350px;
+    }
+}
+@media (max-width:320px) {
+    .skills{
+        width: 320px;
+    }
+    .skill{
+        width: 320px;
+    }
+    .line{
+        width: 280px;
+    }
+}

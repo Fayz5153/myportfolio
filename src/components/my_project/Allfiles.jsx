@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { BrowserRouter,} from "react-router-dom";
 import Boshsahifa from "./navbar/Bosh";
 import "./style.css";
 import modelight from "./files/modelight.svg"
@@ -56,7 +55,6 @@ class Allfiles extends Component {
     render() { 
         return ( 
             <React.Fragment>
-                <BrowserRouter>
                 <div className={`asos` + this.handlecalss()}>
                     <div  className="asos1 container">
                         <div className="nav_fix">
@@ -90,7 +88,6 @@ class Allfiles extends Component {
                         <Footer/>
                     </div>
                 </div>
-                </BrowserRouter>
             </React.Fragment>
          );
     }
